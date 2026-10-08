@@ -1,29 +1,139 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Saltmere Trading FZE | Marine fuels and petroleum products</title>
-<meta name="description" content="Saltmere Trading FZE: marine fuels and petroleum products trading. In business since 2019.">
+<meta name="description" content="Saltmere Trading FZE supplies marine fuels and petroleum products across the Gulf and the Gulf of Oman. In business since 2019.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@400;500&family=Noto+Kufi+Arabic:wght@500&display=swap" rel="stylesheet">
 <style>
-body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#1d2733;background:#f4f6f8}
-header{background:#0f2a44;color:#fff;padding:28px 20px}header h1{margin:0;font-size:28px;letter-spacing:.04em}
-header p{margin:6px 0 0;color:#b9c7d6}main{max-width:860px;margin:0 auto;padding:24px 20px}
-section{background:#fff;border:1px solid #dde3e9;border-radius:6px;padding:18px 22px;margin-bottom:18px}
-h2{color:#0f2a44;font-size:20px;margin-top:0}footer{text-align:center;color:#6b7785;font-size:13px;padding:20px}
-.ar{direction:rtl;font-size:18px;color:#b9c7d6}ul{padding-left:20px}
-</style></head><body>
-<header><h1>SALTMERE TRADING FZE</h1><p class="ar">سالتمير للتجارة م.م.ح</p><p>Marine fuels and petroleum products</p></header>
-<main>
-<section><h2>About us</h2>
-<p>Saltmere Trading FZE is a Dubai-based trader of marine fuels and petroleum products, in business since 2019.
-We arrange supply, blending and delivery for owners and charterers across the Gulf and the Gulf of Oman.</p></section>
-<section><h2>Services</h2><ul>
-<li>Fuel oil and gasoil supply</li><li>Cargo blending to customer specification</li>
-<li>Ship-to-ship coordination at approved locations</li><li>Port agency on the UAE east coast</li></ul></section>
-<section><h2>Our team</h2><ul>
-<li><strong>K. Haddad</strong>, Commercial Director</li>
-<li><strong>Y. Jaber</strong>, Port Operations, Khor Fakkan</li></ul></section>
-<section><h2>Contact</h2><p>Saltmere Trading FZE, Dubai, United Arab Emirates<br>
-Email: <a href="mailto:info@saltmeretrading.com">info@saltmeretrading.com</a><br>
-Client portal: <a href="https://portal.saltmeretrading.com">portal.saltmeretrading.com</a></p></section>
+:root{--navy:#0d2238;--navy2:#163657;--sea:#1f6f8b;--sand:#c9a227;--ink:#1d2733;--muted:#5f6b78;--line:#e3e8ee;--bg:#f6f8fa}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:16px/1.65 Inter,Arial,sans-serif;color:var(--ink);background:#fff}
+h1,h2,h3{font-family:Montserrat,Arial,sans-serif;line-height:1.2;margin:0 0 .6em;color:var(--navy)}
+a{color:var(--sea);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.eyebrow{font:600 12px Montserrat,Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--sand);margin-bottom:10px}
+/* nav */
+.nav{position:absolute;top:0;left:0;right:0;z-index:5}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:76px}
+.logo{display:flex;align-items:center;gap:10px;color:#fff;font:700 18px Montserrat,Arial,sans-serif;letter-spacing:.08em}
+.logo svg{flex:none}.logo small{display:block;font:500 11px Inter,Arial,sans-serif;letter-spacing:.2em;opacity:.75}
+.menu{display:flex;gap:28px}.menu a{color:#fff;font-weight:500;font-size:15px;opacity:.9}
+@media(max-width:760px){.menu{display:none}}
+/* hero */
+.hero{position:relative;min-height:88vh;display:flex;align-items:center;color:#fff;
+ background:linear-gradient(100deg,rgba(13,34,56,.92) 0%,rgba(13,34,56,.65) 45%,rgba(13,34,56,.15) 100%),url(assets/hero.jpg) center/cover no-repeat}
+.hero h1{color:#fff;font-size:clamp(34px,5vw,56px);max-width:640px}
+.hero p{max-width:560px;font-size:18px;color:#d7e1ea}
+.btns{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;padding:13px 26px;border-radius:4px;font:600 15px Montserrat,Arial,sans-serif;letter-spacing:.02em}
+.btn.primary{background:var(--sand);color:var(--navy)}.btn.ghost{border:1px solid rgba(255,255,255,.6);color:#fff}
+.btn:hover{text-decoration:none;filter:brightness(1.08)}
+.hero .ar{text-align:left}
+.ar{font-family:'Noto Kufi Arabic',Arial,sans-serif;direction:rtl}
+/* stats */
+.stats{background:var(--navy);color:#fff}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding:34px 20px}
+.stat b{display:block;font:700 30px Montserrat,Arial,sans-serif;color:var(--sand)}.stat span{color:#b9c7d6;font-size:14px}
+@media(max-width:760px){.stats .wrap{grid-template-columns:repeat(2,1fr)}}
+/* sections */
+section{padding:84px 0}.alt{background:var(--bg)}
+.lead{max-width:680px;color:var(--muted);font-size:17px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:36px}
+@media(max-width:900px){.cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.cards{grid-template-columns:1fr}}
+.card{background:#fff;border:1px solid var(--line);border-radius:6px;padding:26px 22px}
+.card svg{width:38px;height:38px;color:var(--sea);margin-bottom:14px}.card h3{font-size:17px}.card p{color:var(--muted);font-size:15px;margin:0}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+@media(max-width:860px){.split{grid-template-columns:1fr;gap:30px}}
+.split img{width:100%;height:420px;object-fit:cover;border-radius:6px;display:block}
+.ticks{list-style:none;padding:0;margin:22px 0 0}.ticks li{padding:9px 0 9px 32px;position:relative;border-bottom:1px solid var(--line)}
+.ticks li:before{content:"";position:absolute;left:0;top:15px;width:16px;height:9px;border-left:2px solid var(--sea);border-bottom:2px solid var(--sea);transform:rotate(-45deg)}
+.band{position:relative;color:#fff;background:linear-gradient(rgba(13,34,56,.78),rgba(13,34,56,.78)),url(assets/skyline.jpg) center/cover no-repeat}
+.band h2{color:#fff}.band p{color:#d7e1ea;max-width:640px}
+.ports{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.ports span{border:1px solid rgba(255,255,255,.35);border-radius:30px;padding:7px 16px;font-size:14px}
+.team{display:grid;grid-template-columns:repeat(2,minmax(0,320px));gap:22px;margin-top:30px}
+@media(max-width:620px){.team{grid-template-columns:1fr}}
+.person{display:flex;gap:16px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:6px;padding:20px}
+.avatar{flex:none;width:58px;height:58px;border-radius:50%;background:var(--navy2);color:#fff;display:grid;place-items:center;font:700 18px Montserrat,Arial,sans-serif}
+.person b{display:block;font-family:Montserrat,Arial,sans-serif;color:var(--navy)}.person span{color:var(--muted);font-size:14px}
+.contact{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:30px}
+@media(max-width:760px){.contact{grid-template-columns:1fr}}
+.contact div{border-top:3px solid var(--sand);padding-top:14px}.contact b{display:block;font-family:Montserrat,Arial,sans-serif;color:var(--navy);margin-bottom:4px}
+footer{background:var(--navy);color:#8ea2b6;font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;padding:28px 20px}
+</style></head>
+<body>
+<header class="nav"><div class="wrap">
+ <a class="logo" href="#top"><svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="none" stroke="#c9a227" stroke-width="2"/><path d="M8 24c4-3 8-3 12 0s8 3 12 0" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/><path d="M8 18c4-3 8-3 12 0s8 3 12 0" fill="none" stroke="#c9a227" stroke-width="2.4" stroke-linecap="round"/></svg>
+ <span>SALTMERE<small>TRADING FZE</small></span></a>
+ <nav class="menu"><a href="#services">Services</a><a href="#about">About</a><a href="#coverage">Coverage</a><a href="#team">Team</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap">
+ <div class="eyebrow">Marine fuels &amp; petroleum products</div>
+ <h1>Reliable supply across the Gulf and the Gulf of Oman</h1>
+ <p>Saltmere Trading FZE arranges the supply, blending and delivery of marine fuels for owners, operators and charterers, from our office in Dubai.</p>
+ <p class="ar">سالتمير للتجارة م.م.ح · توريد الوقود البحري والمنتجات البترولية</p>
+ <div class="btns"><a class="btn primary" href="#contact">Request a quote</a><a class="btn ghost" href="https://portal.saltmeretrading.com">Client portal</a></div>
+</div></section>
+
+<div class="stats"><div class="wrap">
+ <div class="stat"><b>2019</b><span>In business since</span></div>
+ <div class="stat"><b>40+</b><span>Owners and charterers served</span></div>
+ <div class="stat"><b>24/7</b><span>Operations desk</span></div>
+ <div class="stat"><b>3</b><span>Sea areas covered</span></div>
+</div></div>
+
+<section id="services"><div class="wrap">
+ <div class="eyebrow">What we do</div>
+ <h2>Services</h2>
+ <p class="lead">One point of contact from enquiry to delivery, with an operations team that knows the region's ports and anchorages.</p>
+ <div class="cards">
+  <div class="card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z"/></svg><h3>Fuel supply</h3><p>Fuel oil and gasoil, delivered at port or at anchorage.</p></div>
+  <div class="card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 3h12M8 3v6l-4 10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2l-4-10V3"/><path d="M6.5 15h11"/></svg><h3>Cargo blending</h3><p>Blending to customer specification, with documentation to match.</p></div>
+  <div class="card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 15l2 4h14l2-4H3z"/><path d="M6 15V9h5v6M13 15v-4h5v4"/><path d="M2 21c2 1 4 1 6 0s4-1 6 0 4 1 6 0"/></svg><h3>Ship-to-ship coordination</h3><p>Planning and coordination of transfers at approved locations.</p></div>
+  <div class="card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><h3>Port agency</h3><p>Husbandry, crew and launch services on the UAE east coast.</p></div>
+ </div>
+</div></section>
+
+<section id="about" class="alt"><div class="wrap split">
+ <img src="assets/deck.jpg" alt="Pipework on the deck of a tanker" loading="lazy">
+ <div>
+  <div class="eyebrow">About us</div>
+  <h2>A trading partner that moves quickly</h2>
+  <p>Founded in 2019, Saltmere Trading FZE is a Dubai-based trader of marine fuels and petroleum products. We work with a small group of trusted vessel operators and port agents, so we can respond fast when schedules change.</p>
+  <ul class="ticks"><li>Flexible delivery windows, day or night</li><li>Experienced operations desk on the east coast</li><li>Discreet, personal service for every client</li></ul>
+ </div>
+</div></section>
+
+<section id="coverage" class="band"><div class="wrap">
+ <div class="eyebrow">Coverage</div>
+ <h2>Where we operate</h2>
+ <p>From the Arabian Gulf to the Gulf of Oman, with an operations base on the UAE east coast.</p>
+ <div class="ports"><span>Fujairah</span><span>Khor Fakkan</span><span>Sharjah</span><span>Gulf of Oman OPL</span><span>Arabian Gulf</span></div>
+</div></section>
+
+<section id="team" class="alt"><div class="wrap">
+ <div class="eyebrow">Our people</div>
+ <h2>Our team</h2>
+ <div class="team">
+  <div class="person"><div class="avatar">KH</div><div><b>K. Haddad</b><span>Commercial Director</span></div></div>
+  <div class="person"><div class="avatar">YJ</div><div><b>Y. Jaber</b><span>Port Operations, Khor Fakkan</span></div></div>
+ </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+ <div class="eyebrow">Contact</div>
+ <h2>Talk to our team</h2>
+ <p class="lead">For quotes and availability, email us with your vessel, location and required quantity.</p>
+ <div class="contact">
+  <div><b>Office</b>Saltmere Trading FZE<br>Dubai, United Arab Emirates</div>
+  <div><b>Email</b><a href="mailto:info@saltmeretrading.com">info@saltmeretrading.com</a></div>
+  <div><b>Clients</b><a href="https://portal.saltmeretrading.com">portal.saltmeretrading.com</a></div>
+ </div>
+</div></section>
 </main>
-<footer>&copy; Saltmere Trading FZE. All rights reserved.</footer>
+
+<footer><div class="wrap"><span>&copy; 2019–2026 Saltmere Trading FZE. All rights reserved.</span><span class="ar">سالتمير للتجارة م.م.ح</span></div></footer>
 </body></html>
