@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /ops-archive/
+
+Sitemap: https://saltmeretrading.com/sitemap.xml
